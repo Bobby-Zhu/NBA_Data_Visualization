@@ -1,0 +1,2 @@
+# NBA_Data_Visualization
+This project aims to determine the best-performing team in the NBA, using the total number of wins as the comparison metric from 2003 to 2021. Three visualizations will be provided. The first one describes the overall performance and rankings of all teams. The second one describes the winning and losing relationships between teams. The last chart traces the performance of the best and worst teams throughout time.
