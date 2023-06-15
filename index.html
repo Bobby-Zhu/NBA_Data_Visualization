@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script type="text/javascript" src="script.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <title>Bobby DSC106 Final Project</title>
+  </head>
+  <body onload="final_project()">
+    <h1 class="project-description">NBA Data Visualization</h1>
+    <h3 class="project-description">
+      This project aims to determine the best-performing team in the NBA, using
+      the total number of wins as the comparison metric from 2003 to 2021. Three
+      visualizations will be provided. The first one describes the overall
+      performance and rankings of all teams. The second one describes the
+      winning and losing relationships between teams. The last chart traces the
+      performance of the best and worst teams throughout time.
+    </h3>
+    <div id="q1"></div>
+    <h4>
+      This chart describes the total wins in each state and the overall team
+      rankings among all NBA teams. The darker the color, the more home wins
+      there are in that state. Using this table, we can identify the teams with
+      the most wins from the 2003-04 season to the 2020-21 season. When you
+      hover your mouse over the chart, you can see the ranking of each team in
+      the league. Since the Spurs rank 1st place and the Knicks rank 30th place,
+      we will analyze these two teams further in the third chart.
+    </h4>
+    <div id="plot_1" class="center_plot">
+      <div id="tooltip" style="position: absolute; visibility: hidden"></div>
+    </div>
+    <div id="2"></div>
+    <h4>
+      This chart visualizes the winning and losing relationships between
+      different teams. The orange line represents a winning relationship, and
+      gray represents a losing relationship. For example, if there is an orange
+      arrow starting from the Spurs to the Wizards, it means the Spurs have the
+      highest winning percentage against the Wizards. The same logic applies to
+      the gray line. To make the chart clear, you can click the buttons to show
+      only winning or losing relationships.
+    </h4>
+    <div id="plot_2" class="center_plot">
+      <div id="tooltip2" style="position: absolute; visibility: hidden"></div>
+      <div id="btn-container">
+        <button id="winning-button" class="btn">
+          Show Winning Relationships
+        </button>
+        <button id="losing-button" class="btn">
+          Show Losing Relationships
+        </button>
+        <button id="reset-button" class="btn">Reset</button>
+      </div>
+    </div>
+    <div id="3"></div>
+    <h4>
+      This bar chart traces the best performing team (with the most game wins)
+      This bar chart traces the performance of the best-performing team (with
+      the most game wins) and the worst team over time. When you hover your
+      mouse over the graph, the difference in wins will be displayed. As
+      mentioned in the first chart, we will analyze the Spurs and Knicks. By
+      displaying their wins for each year, we can directly observe the
+      exceptional performance of the Spurs.
+    </h4>
+    <div id="plot_3" class="center_plot">
+      <div id="tooltip3" style="position: absolute; visibility: hidden"></div>
+    </div>
+    <h3 class="project-description">
+      In conclusion, the visualizations provide clear evidence that the San
+      Antonio Spurs are the dominant team in the league. Their highest number of
+      wins and winning rate against other teams, including the Magic, Celtics,
+      Hornets, Kings, Clippers, and Mavericks, solidify their status as the best
+      team. The comparison between the Spurs and the Knicks reveals a
+      significant gap in performance. The Spurs' success is not surprising
+      considering their exceptional leadership under head coach Gregg Popovich,
+      widely recognized as one of the greatest coaches in NBA history.
+      Additionally, the presence of legendary players such as Tim Duncan, Tony
+      Parker, and Manu Ginobili, along with the organization's strong personnel,
+      have contributed to the Spurs' status as the top team in the NBA.
+    </h3>
+  </body>
+</html>

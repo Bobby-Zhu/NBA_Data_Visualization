@@ -1,0 +1,186 @@
+{
+  "nodes": [
+    {
+      "id": 1,
+      "name": "Celtics"
+    },
+    {
+      "id": 2,
+      "name": "Lakers"
+    },
+    {
+      "id": 3,
+      "name": "Heat"
+    },
+    {
+      "id": 4,
+      "name": "Hornets"
+    },
+    {
+      "id": 5,
+      "name": "Thunder"
+    },
+    {
+      "id": 6,
+      "name": "Mavericks"
+    },
+    {
+      "id": 7,
+      "name": "Bucks"
+    },
+    {
+      "id": 8,
+      "name": "Jazz"
+    },
+    {
+      "id": 9,
+      "name": "Nuggets"
+    },
+    {
+      "id": 10,
+      "name": "76ers"
+    },
+    {
+      "id": 11,
+      "name": "Bulls"
+    },
+    {
+      "id": 12,
+      "name": "Timberwolves"
+    },
+    {
+      "id": 13,
+      "name": "Pistons"
+    },
+    {
+      "id": 14,
+      "name": "Clippers"
+    },
+    {
+      "id": 15,
+      "name": "Pacers"
+    },
+    {
+      "id": 16,
+      "name": "Knicks"
+    },
+    {
+      "id": 17,
+      "name": "Suns"
+    },
+    {
+      "id": 18,
+      "name": "Wizards"
+    },
+    {
+      "id": 19,
+      "name": "Grizzlies"
+    },
+    {
+      "id": 20,
+      "name": "Pelicans"
+    },
+    {
+      "id": 21,
+      "name": "Hawks"
+    },
+    {
+      "id": 22,
+      "name": "Trail Blazers"
+    },
+    {
+      "id": 23,
+      "name": "Nets"
+    },
+    {
+      "id": 24,
+      "name": "Magic"
+    },
+    {
+      "id": 25,
+      "name": "Cavaliers"
+    },
+    {
+      "id": 26,
+      "name": "Warriors"
+    },
+    {
+      "id": 27,
+      "name": "Spurs"
+    },
+    {
+      "id": 28,
+      "name": "Rockets"
+    },
+    {
+      "id": 29,
+      "name": "Kings"
+    },
+    {
+      "id": 30,
+      "name": "Raptors"
+    }
+  ],
+  "links": [
+    { "source": 1, "target": 27, "value": 21.05, "status": "losing" },
+    { "source": 1, "target": 23, "value": 84.21, "status": "winning" },
+    { "source": 2, "target": 14, "value": 44.68, "status": "losing" },
+    { "source": 2, "target": 21, "value": 78.95, "status": "winning" },
+    { "source": 3, "target": 12, "value": 42.86, "status": "losing" },
+    { "source": 3, "target": 29, "value": 90.48, "status": "winning" },
+    { "source": 4, "target": 27, "value": 23.53, "status": "losing" },
+    { "source": 4, "target": 12, "value": 80, "status": "winning" },
+    { "source": 5, "target": 3, "value": 41.67, "status": "losing" },
+    { "source": 5, "target": 24, "value": 75, "status": "winning" },
+    { "source": 6, "target": 27, "value": 54.9, "status": "losing" },
+    { "source": 6, "target": 18, "value": 77.27, "status": "winning" },
+    { "source": 7, "target": 9, "value": 33.33, "status": "losing" },
+    { "source": 7, "target": 24, "value": 72.93, "status": "winning" },
+    { "source": 8, "target": 1, "value": 44.44, "status": "losing" },
+    { "source": 8, "target": 7, "value": 90.48, "status": "winning" },
+    { "source": 9, "target": 10, "value": 50, "status": "losing" },
+    { "source": 9, "target": 16, "value": 89.47, "status": "winning" },
+    { "source": 10, "target": 5, "value": 35, "status": "losing" },
+    { "source": 10, "target": 4, "value": 77.14, "status": "winning" },
+    { "source": 11, "target": 14, "value": 27.78, "status": "losing" },
+    { "source": 11, "target": 15, "value": 72, "status": "winning" },
+    { "source": 12, "target": 28, "value": 36.84, "status": "losing" },
+    { "source": 12, "target": 23, "value": 78.95, "status": "winning" },
+    { "source": 13, "target": 8, "value": 31.82, "status": "losing" },
+    { "source": 13, "target": 24, "value": 77.5, "status": "winning" },
+    { "source": 14, "target": 27, "value": 39.02, "status": "losing" },
+    { "source": 14, "target": 18, "value": 90, "status": "winning" },
+    { "source": 15, "target": 9, "value": 34.78, "status": "losing" },
+    { "source": 15, "target": 4, "value": 75, "status": "winning" },
+    { "source": 16, "target": 28, "value": 21.05, "status": "losing" },
+    { "source": 16, "target": 13, "value": 66.67, "status": "winning" },
+    { "source": 17, "target": 3, "value": 33.33, "status": "losing" },
+    { "source": 17, "target": 16, "value": 78.95, "status": "winning" },
+    { "source": 18, "target": 28, "value": 31.58, "status": "losing" },
+    { "source": 18, "target": 12, "value": 75, "status": "winning" },
+    { "source": 19, "target": 1, "value": 36.84, "status": "losing" },
+    { "source": 19, "target": 18, "value": 78.26, "status": "winning" },
+    { "source": 20, "target": 11, "value": 39.13, "status": "losing" },
+    { "source": 20, "target": 7, "value": 80.95, "status": "winning" },
+    { "source": 21, "target": 30, "value": 31.82, "status": "losing" },
+    { "source": 21, "target": 7, "value": 80.95, "status": "winning" },
+    { "source": 22, "target": 1, "value": 38.89, "status": "losing" },
+    { "source": 22, "target": 4, "value": 88.9, "status": "winning" },
+    { "source": 23, "target": 28, "value": 25, "status": "losing" },
+    { "source": 23, "target": 29, "value": 80, "status": "winning" },
+    { "source": 24, "target": 27, "value": 37.5, "status": "losing" },
+    { "source": 24, "target": 19, "value": 66.67, "status": "winning" },
+    { "source": 25, "target": 26, "value": 34.48, "status": "losing" },
+    { "source": 25, "target": 4, "value": 77.14, "status": "winning" },
+    { "source": 26, "target": 15, "value": 50, "status": "losing" },
+    { "source": 26, "target": 22, "value": 82.98, "status": "winning" },
+    { "source": 27, "target": 2, "value": 52.27, "status": "winning" },
+    { "source": 27, "target": 18, "value": 90.91, "status": "winning" },
+    { "source": 28, "target": 15, "value": 50, "status": "losing" },
+    { "source": 28, "target": 4, "value": 88.9, "status": "winning" },
+    { "source": 29, "target": 27, "value": 34.21, "status": "losing" },
+    { "source": 29, "target": 11, "value": 65, "status": "winning" },
+    { "source": 30, "target": 17, "value": 36.84, "status": "losing" },
+    { "source": 30, "target": 12, "value": 81.82, "status": "winning" }
+  ]
+}
