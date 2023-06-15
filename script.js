@@ -1,5 +1,5 @@
 function final_project() {
-  let filePath = 'plot_1_data.csv'
+  let filePath = 'data.csv'
   plot0(filePath)
 }
 
